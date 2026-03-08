@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 /* ══════════════════════════════════════════════════════════
    DESIGN TOKENS
@@ -1922,6 +1923,7 @@ export default function App() {
           </div>
         </footer>
       </div>
+      <Analytics />
     </div>
   );
 }
